@@ -36,11 +36,11 @@ const EditUser = () => {
   };
 
   return (
-    <div className="container">
+    <div className="container pt-5">
       <div className="w-75 mx-auto shadow p-5">
         <h2 className="text-center mb-4">Edit A User</h2>
         <form onSubmit={(e) => onSubmit(e)}>
-          <div className="form-group">
+          <div className="form-group mb-2">
             <input
               type="text"
               className="form-control form-control-lg"
@@ -50,7 +50,7 @@ const EditUser = () => {
               onChange={(e) => onInputChange(e)}
             />
           </div>
-          <div className="form-group">
+          <div className="form-group mb-2">
             <input
               type="text"
               className="form-control form-control-lg"
@@ -60,7 +60,7 @@ const EditUser = () => {
               onChange={(e) => onInputChange(e)}
             />
           </div>
-          <div className="form-group">
+          <div className="form-group mb-2">
             <input
               type="email"
               className="form-control form-control-lg"
@@ -70,7 +70,7 @@ const EditUser = () => {
               onChange={(e) => onInputChange(e)}
             />
           </div>
-          <div className="form-group">
+          <div className="form-group mb-2">
             <input
               type="text"
               className="form-control form-control-lg"
@@ -80,7 +80,7 @@ const EditUser = () => {
               onChange={(e) => onInputChange(e)}
             />
           </div>
-          <div className="form-group">
+          <div className="form-group mb-2">
             <input
               type="text"
               className="form-control form-control-lg"

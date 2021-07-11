@@ -24,18 +24,19 @@ const User = () => {
 
   return (
     <div className="container py-4">
+      <h1 className="display-4">User ID: {id}</h1>
+      <hr />
+      <ul className="list-group  mx-auto">
+        <li className="list-group-item">Name: {user.name}</li>
+        <li className="list-group-item">Username: {user.username}</li>
+        <li className="list-group-item">Email: {user.email}</li>
+        <li className="list-group-item">Phone: {user.phone}</li>
+        <li className="list-group-item">Website: {user.website}</li>
+      </ul>
+      <hr />
       <Link className="btn btn-primary" to="/">
         Back To Home
       </Link>
-      <h1 className="display-4">User ID: {id}</h1>
-      <hr />
-      <ul className="list-group w-50">
-        <li className="list-group-item">name: {user.name}</li>
-        <li className="list-group-item">username: {user.username}</li>
-        <li className="list-group-item">email: {user.email}</li>
-        <li className="list-group-item">phone: {user.phone}</li>
-        <li className="list-group-item">website: {user.website}</li>
-      </ul>
     </div>
   );
 };
